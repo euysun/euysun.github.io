@@ -94,8 +94,10 @@ body {
 }
 
 .about-section .container {
-    max-width: 500px; /* Increase the max width to make the box wider */
-    margin: 0 auto; /* Center the content */
+    max-width: 1200px;
+    width: 90%;/* Increase the max width to make the box wider */
+    margin: 0 auto;
+    border-radius: 10px/* Center the content */
 }
 
 .about-section h1 {
@@ -109,7 +111,8 @@ body {
 .about-section p {
     font-size: 1.1rem;
     line-height: 1.6;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    max-width: 1000px;
 }
 
 .about-section a {
@@ -132,14 +135,14 @@ body {
 .contact-section {
     background-color: #f7f7f7; /* Match the footer color */
     padding: 60px 20px;
-    color: #2f3b4c;
+    color: #000000;
     text-align: center;
 }
 
 .contact-section h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #000000;
     display: inline-block;
     padding-bottom: 10px;
 }
