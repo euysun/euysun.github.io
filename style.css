@@ -87,9 +87,13 @@ body {
 
 /* About Section Styles */
 .about-section {
-    background-color: #66c2a5; /* Same as Hero Section */
-    padding: 80px 20px;
+    background-color: #66c2a5; /* The color used in your Hero section */
     color: #ffffff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
 }
 
