@@ -186,8 +186,41 @@ body {
     background-color: #e6e6e6;
 }
 
-/* Footer styles */
-footer {
-    background-color: #2f3b4c;
+/* Footer Styling */
+.footer {
+    background-color: #2f3b4c; /* Dark background color */
+    color: #ffffff; /* White text color */
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.footer a {
+    color: #66c2a5; /* Link color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #e6e6e6;
+}
+
+.social-icons a {
     color: #ffffff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+    color: #66c2a5;
+    transform: scale(1.1);
 }
