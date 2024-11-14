@@ -85,6 +85,43 @@ body {
     margin-bottom: 0; /* Reduce gap below text */
 }
 
+/* About Section Styles */
+.about-section {
+    background-color: #66c2a5; /* Same as Hero Section */
+    padding: 80px 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffffff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-section a {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #66c2a5;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.about-section a:hover {
+    background-color: #e6e6e6;
+}
+
 /* Footer styles */
 footer {
     background-color: #2f3b4c;
