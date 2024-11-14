@@ -69,8 +69,8 @@ body {
 /* Container to enforce consistent image dimensions */
 .project-image-container {
     width: 100%;
-    max-width: 500px; /* Fixed max width */
-    height: 350px;    /* Fixed height */
+    max-width: 600px; /* Fixed max width */
+    height: 400px;    /* Fixed height */
     overflow: hidden; /* Ensure no overflow */
     margin: 0 auto;   /* Center the container */
     display: flex;
