@@ -32,7 +32,7 @@ body {
 
 /* Styling for the Hero Name with Bold Line */
 .hero-name {
-    font-size: 3.5rem; /* Adjust font size as needed */
+    font-size: 5rem; /* Adjust font size as needed */
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 5px solid #ffffff; /* Bold underline */
@@ -88,27 +88,27 @@ body {
 /* About Section Styles */
 .about-section {
     background-color: #66c2a5; /* Background color matching the hero section */
-    padding: 80px 40px; /* Increase padding to make the box larger */
+    padding: 40px 20px; /* Increase padding to make the box larger */
     color: #ffffff;
-    text-align: center;
+    text-align: left;
 }
 
 .about-section .container {
-    max-width: 700px; /* Increase the max width to make the box wider */
+    max-width: 500px; /* Increase the max width to make the box wider */
     margin: 0 auto; /* Center the content */
 }
 
 .about-section h1 {
     font-size: 2.5rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border-bottom: 2px solid #ffffff;
     display: inline-block;
     padding-bottom: 10px;
 }
 
 .about-section p {
-    font-size: 1.2rem;
-    line-height: 1.8;
+    font-size: 1.1rem;
+    line-height: 1.6;
     margin-bottom: 20px;
 }
 
