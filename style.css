@@ -54,6 +54,20 @@ body {
     transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
+#portfolio .row {
+    margin-bottom: 40px;
+}
+
+#portfolio img {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#portfolio img:hover {
+    transform: scale(1.05);
+}
+
 #portfolio {
     background-color: #ffffff;
     padding: 60px 20px;
