@@ -3,19 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>Euysun Hwang</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS for responsive design -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="about-section">
-            <h1>ABOUT</h1>
-            <p>I am interested in the issue of solving problems rather than specific technologies, and also interested in Data & Content curation. I am currently working as a software engineer. I majored in educational technology, thus once worked in human resources development (HRD) field.</p>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Euysun Hwang</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="contact-section">
-            <p>If you have any questions, please feel free to contact me.</p>
-            <a href="https://brunch.co.kr/@llun" target="_blank">https://brunch.co.kr/@llun</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>OFF THE RECORD</h1>
+            <p>Diplomat -  - Problem Solver</p>
         </div>
-    </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="project" class="container my-5 text-center">
+        <h2>PORTFOLIO</h2>
+        <hr class="divider">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="image1.jpg" class="img-fluid" alt="Project 1">
+            </div>
+            <div class="col-md-4">
+                <img src="image2.jpg" class="img-fluid" alt="Project 2">
+            </div>
+            <div class="col-md-4">
+                <img src="image3.jpg" class="img-fluid" alt="Project 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Euysun Hwang</p>
+    </footer>
+
+    <!-- Bootstrap JS for responsiveness -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
