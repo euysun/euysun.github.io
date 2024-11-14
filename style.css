@@ -47,7 +47,7 @@ body {
 }
 
 #portfolio .row {
-    margin-bottom: 15px; /* Reduce the gap between rows */
+    margin-bottom: 10px; /* Reduce the gap between rows */
 }
 
 .project-image-container {
