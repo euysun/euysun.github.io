@@ -94,7 +94,7 @@ body {
 }
 
 .about-section .container {
-    max-width: 900px; /* Increase the max width to make the box wider */
+    max-width: 700px; /* Increase the max width to make the box wider */
     margin: 0 auto; /* Center the content */
 }
 
