@@ -110,6 +110,7 @@ body {
 .about-subtitle {
     font-size: 1.5rem;
     margin-top: 10px;
+    padding: 40px 30px; /* Increase padding to make the box larger */
     font-wieight: 500;
     color: #ffffff;
     text-align: center;
