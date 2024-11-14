@@ -231,7 +231,7 @@ body {
 }
 
 .social-icons a:hover {
-    color: #66c2a5; /* Change icon color on hover */
+    color: #ffffff; /* Change icon color on hover */
     transform: scale(1.1); /* Slight zoom on hover */
 }
 
