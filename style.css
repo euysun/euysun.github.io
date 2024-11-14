@@ -69,8 +69,8 @@ body {
 /* Container to enforce consistent image dimensions */
 .project-image-container {
     width: 100%;
-    max-width: 350px; /* Fixed max width */
-    height: 250px;    /* Fixed height */
+    max-width: 500px; /* Fixed max width */
+    height: 350px;    /* Fixed height */
     overflow: hidden; /* Ensure no overflow */
     margin: 0 auto;   /* Center the container */
     display: flex;
@@ -83,13 +83,13 @@ body {
     height: 100%;
     object-fit: cover; /* Ensures image covers the entire container without distortion */
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project-image:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer styles */
