@@ -88,7 +88,7 @@ body {
 /* About Section Styles */
 .about-section {
     background-color: #66c2a5; /* Background color matching the hero section */
-    padding: 40px 20px; /* Increase padding to make the box larger */
+    padding: 40px 30px; /* Increase padding to make the box larger */
     color: #ffffff;
     text-align: left;
 }
@@ -110,7 +110,7 @@ body {
 
 .about-section p {
     font-size: 1.1rem;
-    line-height: 1.6;
+    line-height: 1.5;
     margin-bottom: 20px;
     max-width: 1000px;
 }
