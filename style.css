@@ -97,7 +97,7 @@ body {
     background-color: #66c2a5; /* Background color matching the hero section */
     padding: 40px 30px; /* Increase padding to make the box larger */
     color: #ffffff;
-    text-align: left;
+    text-align: center;
 }
 
 .about-section .container {
