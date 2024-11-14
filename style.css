@@ -92,13 +92,14 @@ img {
     color: #66c2a5;
     padding: 5px 10px;
     text-decoration: none;
-    border-radius: 1px;
+    border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s
 }
 
 .about-section a:hover {
     background-color: #e6e6e6;
+    transform: translateY(-2px);
 }
 
 /* Footer styles */
