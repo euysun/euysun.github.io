@@ -66,69 +66,30 @@ body {
     margin-top: 10px;
 }
 
-/* Consistent styling for all project images */
+/* Ensuring consistent size for all project images */
+.project-image-container {
+    width: 100%;
+    max-width: 300px; /* Set a fixed width */
+    height: 250px;    /* Set a fixed height */
+    overflow: hidden; /* Prevent overflow if the image is too large */
+    margin: 0 auto;   /* Center the images */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .project-image {
     width: 100%;
-    height: 250px; /* Set a fixed height to ensure all images are the same size */
-    object-fit: cover; /* Ensures the image covers the container without distortion */
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
-    display: block;
 }
 
-/* Hover effect for images */
 .project-image:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-}
-
-/* Ensuring all images have consistent styling */
-img {
-    width: 100%;
-    height: 250px; /* Set height to match .project-image */
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-/* About Section Styles */
-.about-section {
-    background-color: #66c2a5; /* Same as Hero Section */
-    padding: 80px 20px;
-    color: #ffffff;
-    text-align: center;
-}
-
-.about-section h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #ffffff;
-    display: inline-block;
-    padding-bottom: 10px;
-}
-
-.about-section p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-.about-section a {
-    display: inline-block;
-    background-color: #ffffff;
-    color: #66c2a5;
-    padding: 5px 5px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s, transform 0.2s
-}
-
-.about-section a:hover {
-    background-color: #e6e6e6;
-    transform: translateY(-2px);
 }
 
 /* Footer styles */
