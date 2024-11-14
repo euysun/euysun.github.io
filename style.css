@@ -92,7 +92,7 @@ img {
     color: #66c2a5;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 1px;
     font-weight: bold;
     transition: background-color 0.3s;
 }
